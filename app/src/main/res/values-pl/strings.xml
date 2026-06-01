@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hydration</string>
+    <string name="home">Start</string>
+    <string name="home_title">Dzienny Cel</string>
+    <string name="home_progress">%1$d / %2$d ml</string>
+    <string name="home_list_title">Podsumowanie Dnia</string>
+    <string name="home_add_drink">Dodaj %1$d ml</string>
+    <string name="calendar">Kalendarz</string>
+    <string name="calendar_title">Podsumowanie Miesiaca</string>
+    <string name="settings">Ustawienia</string>
+    <string name="settings_daily_goal">Dzienny cel: %1$d ml</string>
+    <string name="settings_cup_size">Rozmiar szklanki: %1$d ml</string>
+    <string name="settings_enable_reminders">Włącz powiadomienia</string>
+    <string name="settings_reminders_no_permissions">Zezwolenie na powiadomienia wymagane</string>
+    <string name="settings_reminders_freq">Przypominaj co %1$d minut</string>
+    <string name="settings_reminders_start">Start powiadomień o: %1$s</string>
+    <string name="settings_reminders_end">Koniec powiadomień o: %1$s</string>
+</resources>

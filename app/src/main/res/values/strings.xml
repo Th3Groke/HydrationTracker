@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Hydration</string>
+    <string name="home">Home</string>
+    <string name="home_title">Daily Progress</string>
+    <string name="home_progress">%1$d / %2$d ml</string>
+    <string name="home_list_title">Today\'s Log</string>
+    <string name="home_add_drink">Drink %1$d ml</string>
+    <string name="calendar">Calendar</string>
+    <string name="calendar_title">Monthly Overview</string>
+    <string name="settings">Settings</string>
+    <string name="settings_daily_goal">Daily goal: %1$d ml</string>
+    <string name="settings_cup_size">Cup size: %1$d ml</string>
+    <string name="settings_enable_reminders">Enable Reminders</string>
+    <string name="settings_reminders_no_permissions">Permission required for reminders</string>
+    <string name="settings_reminders_freq">Remind me every %1$d minutes</string>
+    <string name="settings_reminders_start">Start Reminders at: %1$s</string>
+    <string name="settings_reminders_end">Stop Reminders at: %1$s</string>
+</resources>
