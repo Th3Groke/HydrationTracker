@@ -5,13 +5,12 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.ui.res.stringResource
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
-import com.th3groke.hydrationapp.viewmodel.CalendarViewModel
 import com.th3groke.hydrationapp.viewmodel.SettingsViewModel
 import com.th3groke.hydrationapp.viewmodel.WaterViewModel
 
@@ -33,9 +32,10 @@ fun HydrationApp(waterViewModel: WaterViewModel, settingsViewModel: SettingsView
 
                 // 3. Draw a button for each screen in the list
                 items.forEach { screen ->
+                    val title = stringResource(id = screen.titleRes)
                     NavigationBarItem(
-                        icon = { Icon(screen.icon, contentDescription = screen.title) },
-                        label = { Text(screen.title) },
+                        icon = { Icon(screen.icon, contentDescription = title) },
+                        label = { Text(title) },
                         selected = currentRoute == screen.route,
                         onClick = {
                             // 4. Navigate to the selected screen

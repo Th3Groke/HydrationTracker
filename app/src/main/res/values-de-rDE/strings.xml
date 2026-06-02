@@ -2,18 +2,18 @@
 <resources>
     <string name="app_name">Hydration</string>
     <string name="home">Start</string>
-    <string name="home_title">Tagesziel</string>
-    <string name="settings_reminders_no_permissions">Erlaubniss fuer Benachrichtungen</string>
-    <string name="settings_reminders_freq">Erinnern mich alle %1$d Minuten</string>
-    <string name="home_add_drink">Trink %1$d ml</string>
+    <string name="home_title">Heutiger Fortschritt</string>
+    <string name="home_progress">%1$d / %2$d ml</string>
+    <string name="home_list_title">Heutiges Protokoll</string>
+    <string name="home_add_drink">%1$d ml trinken</string>
     <string name="calendar">Kalender</string>
-    <string name="calendar_title">Montas Rueckblich</string>
+    <string name="calendar_title">Erfolgskalender</string>
     <string name="settings">Einstellungen</string>
     <string name="settings_daily_goal">Tagesziel: %1$d ml</string>
-    <string name="settings_cup_size">Glasgroesse: %1$d ml</string>
-    <string name="settings_enable_reminders">Erlaube Benachrichtungen</string>
-    <string name="home_progress">%1$d / %2$d ml</string>
-    <string name="home_list_title">Tagesabschluss</string>
-    <string name="settings_reminders_start">Anfang der Erinnerungen um: %1$s</string>
-    <string name="settings_reminders_end">Ende der Erinnerungen um: %1$s</string>
+    <string name="settings_cup_size">Glasgröße: %1$d ml</string>
+    <string name="settings_enable_reminders">Erinnerungen aktivieren</string>
+    <string name="settings_reminders_no_permissions">Berechtigung für Erinnerungen erforderlich</string>
+    <string name="settings_reminders_freq">Erinnere mich alle %1$d Minuten</string>
+    <string name="settings_reminders_start">Erinnerungen beginnen um: %1$s</string>
+    <string name="settings_reminders_end">Erinnerungen enden um: %1$s</string>
 </resources>

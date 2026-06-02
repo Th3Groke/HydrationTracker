@@ -2,18 +2,18 @@
 <resources>
     <string name="app_name">Hydration</string>
     <string name="home">Start</string>
-    <string name="home_title">Dzienny Cel</string>
+    <string name="home_title">Dzisiejsze postępy</string>
     <string name="home_progress">%1$d / %2$d ml</string>
-    <string name="home_list_title">Podsumowanie Dnia</string>
-    <string name="home_add_drink">Dodaj %1$d ml</string>
+    <string name="home_list_title">Dzisiejszy wpis</string>
+    <string name="home_add_drink">Wypij %1$d ml</string>
     <string name="calendar">Kalendarz</string>
-    <string name="calendar_title">Podsumowanie Miesiaca</string>
+    <string name="calendar_title">Kalendarz osiągnięć</string>
     <string name="settings">Ustawienia</string>
     <string name="settings_daily_goal">Dzienny cel: %1$d ml</string>
     <string name="settings_cup_size">Rozmiar szklanki: %1$d ml</string>
-    <string name="settings_enable_reminders">Włącz powiadomienia</string>
-    <string name="settings_reminders_no_permissions">Zezwolenie na powiadomienia wymagane</string>
-    <string name="settings_reminders_freq">Przypominaj co %1$d minut</string>
-    <string name="settings_reminders_start">Start powiadomień o: %1$s</string>
-    <string name="settings_reminders_end">Koniec powiadomień o: %1$s</string>
+    <string name="settings_enable_reminders">Włącz przypomnienia</string>
+    <string name="settings_reminders_no_permissions">Wymagana zgoda na powiadomienia</string>
+    <string name="settings_reminders_freq">Przypominaj mi co %1$d minut</string>
+    <string name="settings_reminders_start">Przypomnienia od godziny: %1$s</string>
+    <string name="settings_reminders_end">Przypomnienia do godziny: %1$s</string>
 </resources>
